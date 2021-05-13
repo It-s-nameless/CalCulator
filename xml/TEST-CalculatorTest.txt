@@ -1,0 +1,33 @@
+Testsuite: CalculatorTest
+Tests run: 8, Failures: 2, Errors: 1, Skipped: 0, Time elapsed: 0.057 sec
+
+Testcase: testSquareRoot took 0.021 sec
+	Caused an ERROR
+test timed out after 10 milliseconds
+java.lang.Exception: test timed out after 10 milliseconds
+	at Calculator.squareRoot(Unknown Source)
+	at CalculatorTest.testSquareRoot(Unknown Source)
+
+Testcase: testMultiply took 0.001 sec
+	FAILED
+expected:<20> but was:<10>
+junit.framework.AssertionFailedError: expected:<20> but was:<10>
+	at CalculatorTest.testMultiply(Unknown Source)
+	at org.eclipse.ant.internal.launching.remote.EclipseDefaultExecutor.executeTargets(EclipseDefaultExecutor.java:36)
+	at org.eclipse.ant.internal.launching.remote.InternalAntRunner.run(InternalAntRunner.java:460)
+	at org.eclipse.ant.internal.launching.remote.InternalAntRunner.main(InternalAntRunner.java:142)
+
+Testcase: testClear took 0 sec
+Testcase: testDivide took 0.001 sec
+Testcase: testAdd took 0 sec
+Testcase: testSubstract took 0.002 sec
+	FAILED
+expected:<8> but was:<9>
+junit.framework.AssertionFailedError: expected:<8> but was:<9>
+	at CalculatorTest.testSubstract(Unknown Source)
+	at org.eclipse.ant.internal.launching.remote.EclipseDefaultExecutor.executeTargets(EclipseDefaultExecutor.java:36)
+	at org.eclipse.ant.internal.launching.remote.InternalAntRunner.run(InternalAntRunner.java:460)
+	at org.eclipse.ant.internal.launching.remote.InternalAntRunner.main(InternalAntRunner.java:142)
+
+Testcase: testSquare took 0.001 sec
+Testcase: testGetResult took 0 sec
