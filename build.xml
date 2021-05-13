@@ -20,7 +20,7 @@
 
            <pathelement location="${lib.dir}/*.jar"/>  
            <fileset dir="${lib.dir}">  
-    	        <include name="**/*.jar" />  
+    	        <include name="*.jar" />  
     	    </fileset>
 
    
@@ -70,7 +70,7 @@
         	
           <pathelement path="${run.classpath}"/>        	
           <fileset dir="${lib.dir}">
-               <include name="**/*.jar"/>
+               <include name="*.jar"/>
           </fileset>
 
 
